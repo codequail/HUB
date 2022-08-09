@@ -1,0 +1,212 @@
+body {
+	background-color: #192F59;
+}
+
+/***** Header Styles *****/
+#header-nav {
+	background-color: none;
+	border-radius: 0;
+	border: none;
+}
+#logo-img {
+	background: url("../images/hu-logo.png") no-repeat;
+	background-size: contain;
+	width: 100px;
+	height: 100px;
+	margin: 10px 15px 10px 0px;
+}
+
+/* Center Logo and Branding */
+.navbar-header {
+  transform: translateX(-50%);
+  left: 50%;
+  position: relative;
+}
+.navbar-brand h1, .navbar-brand p {
+	font-family: 'Open sans', sans-serif;
+	text-transform: uppercase;
+}
+.navbar-brand h1 {
+	font-size: 30.5px;
+	font-weight: 700;
+	color: #192F59;
+}
+.navbar-brand a:hover {
+	text-decoration: none;
+}
+.navbar-brand p {
+	font-size: 25px;
+}
+.navbar-toggle {
+	background-color: #ffffff;
+
+}
+/** Header styles End**/
+
+/**** Footer Styles *****/
+.panel-footer {
+	font-family: 'Open Sans', sans-serif;
+	background-color: #0F1C36;
+	border: none;
+	color: #ffffff;
+	text-decoration: none;
+	padding-top: 50px;
+}
+.footer-col-2, .footer-col-3 {
+	padding-top: 97px;
+}
+.footer-copyright {
+	padding-top: 20px;
+}
+#BioInfo img {
+	padding-bottom: 10px;
+}
+.panel-footer p {
+	font-size: 15px;
+	font-weight: light;
+}
+.panel-footer a {
+	text-decoration: none;
+	font-size: 1.2em;
+	font-weight: 600;
+	color: #ffffff;
+}
+.panel-footer a:hover {
+	color: #ffffffbb;
+}
+.panel-footer h4 {
+	text-transform: uppercase;
+	font-weight: bold;
+}
+.panel-footer h5 {
+	font-size: 1.3em;
+	font-weight: 700;
+}
+.panel-footer h6 {
+	font-size: 1em;
+	font-weight: normal;
+}
+.panel-footer i {
+	font-size: 1.4em;
+	margin-right: 10px;
+}
+.panel-footer li:not(:last-child) {
+	margin-bottom: 10px;
+}
+/**** Footer End ****/
+
+/***** Homepage Styles *****/
+
+/** Jumbotron Shadow **/
+.container .jumbotron {
+	box-shadow: 0 0 50px #0c163f;
+}
+
+/** Tiles Styles **/
+.tile {
+	padding: 10px;
+}
+.tile div {
+	display: flex;
+	height: 250px;
+	background-position: center;
+	background-size: cover;
+	justify-content: center;
+	align-items: flex-end;
+}
+#vision {
+	background-image: url("../images/bulb.jpg");
+}
+#life {
+	background-image: url("../images/growing-plant.jpg");
+}
+#resources {
+	background-image: url("../images/office.jpg");
+}
+#events {
+	background-image: url("../images/studio-mic.jpg");
+}
+#tutorials {
+	background-image: url("../images/presentation.jpg");
+}
+#funded-projects {
+	background-image: url("../images/project-work.jpg");
+}
+#hostels {
+	background-image: url("../images/hostel-building.jpg");
+}
+#downloads {
+	background-image: url("../images/documents.jpg");
+}
+#affiliated-colleges {
+	background-image: url("../images/college-building.jpg");
+}
+.tile a {
+	text-decoration: none;
+	color: #FFFFFF;
+}
+.tile a:hover {
+	color: #00BBFF;
+}
+.tile .title {
+	display: inline-block;
+	text-align: center;
+	background-color: #122240CC;
+	width: 100%;
+	padding: 10px 5px;
+}
+.tile .map-title {
+	position: relative;
+	top: -40px;
+}
+/***** Homepage End *****/
+
+/***** Responsiveness Stuff *****/
+
+/*****===== Large devices =====*****/
+
+/***** Homepage Styles *****/
+
+/** Jumbotron Styling **/
+@media (min-width: 1200px) {
+	.container .jumbotron {
+		background-image: url("../images/Hazara-University-Sub-campus-Battagram-1280.jpg");
+		height: 700px;
+	}
+}
+
+/*****===== Medium Devices =====*****/
+
+/***** Homepage Styles *****/
+
+/** Jumbotron Styling **/
+@media (min-width: 992px) and (max-width: 1199px) {
+	.container .jumbotron {
+		background-image: url("../images/Hazara-University-Sub-campus-Battagram-992.jpg");
+		height: 550px;
+	}
+}
+
+/*****===== Small Devices =====*****/
+
+/***** Homepage Styles *****/
+
+/** Jumbotron Styling **/
+@media (min-width: 768px) and (max-width: 991px) {
+	.container .jumbotron {
+		margin-top: 30px;
+		padding: 0;
+	}
+}
+
+/*****===== Extra Small Devices =====*****/
+
+/***** Homepage Styles *****/
+
+/** Jumbotron Styling **/
+@media (max-width: 767px) {
+	.container .jumbotron {
+		margin-top: 30px;
+		padding: 0;
+	}
+}
